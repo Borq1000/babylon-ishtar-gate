@@ -1,0 +1,6 @@
+node_modules
+stills
+clips
+audio
+*.mp4
+*.log

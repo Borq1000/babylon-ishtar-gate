@@ -1,0 +1,14 @@
+{
+  "name": "babylon-video-tools",
+  "private": true,
+  "description": "Frame-by-frame rendering of the presentation film from the real-time scene",
+  "scripts": {
+    "stills": "node render.js stills",
+    "render": "node render.js video",
+    "audio": "node audio.js",
+    "assemble": "node assemble.js babylon-presentation-1080p.mp4 1080 21"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
