@@ -1,0 +1,25 @@
+{
+  "name": "babylon-ishtar-gate",
+  "private": true,
+  "version": "1.0.0",
+  "description": "BABYLON — The Ishtar Gate, 575 BCE. A cinematic interactive real-time reconstruction of ancient Babylon (Three.js + TypeScript + Vite).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "n8ao": "2.0.1",
+    "postprocessing": "6.39.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.4"
+  }
+}

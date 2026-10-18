@@ -1,0 +1,68 @@
+{
+ "clips": {
+  "walk": {
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.4770376164555552,
+   "duration": 1.0166666666666666
+  },
+  "walk_carry": {
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.4770376164555552,
+   "duration": 1.0166666666666666
+  },
+  "walk_slow": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.9642913427508338,
+   "duration": 1.3083333333333333
+  },
+  "march": {
+   "frames": 41,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.8214638208331635,
+   "duration": 1.3416666666666666
+  },
+  "idle": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "idle_carry": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "talk": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "wave": {
+   "frames": 65,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 2.1666666666666665
+  }
+ },
+ "lods": {
+  "woman": [
+   21687,
+   7229,
+   2168,
+   795
+  ]
+ }
+}

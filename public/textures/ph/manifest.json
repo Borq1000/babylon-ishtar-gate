@@ -1,0 +1,400 @@
+[
+  {
+    "slot": "ground_sand",
+    "id": "dense_sand",
+    "name": "Dense Sand",
+    "type": "texture",
+    "authors": [
+      "Dimitrios Savva"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/dense_sand",
+    "files": [
+      "textures/ph/dense_sand/dense_sand_ao_1k.jpg",
+      "textures/ph/dense_sand/dense_sand_diff_2k.jpg",
+      "textures/ph/dense_sand/dense_sand_nor_gl_1k.jpg",
+      "textures/ph/dense_sand/dense_sand_rough_1k.jpg"
+    ],
+    "notes": "Dry compacted tan/khaki sand (mean sRGB 147,128,99), fine grain with soft crusted clumps and shallow pits; very low contrast, so it tiles almost invisibly. Fully matte (roughness map ~0.98). One tile = 1.8 m x 1.8 m: repeat = groundSizeMeters / 1.8. Main open-ground surface; multiply material.color by ~1.1-1.15 for a lighter alluvial look. Budget split: diffuse 2k, normal/rough/AO 1k (an all-2k set would be 10.6 MB). Chosen over sand_01, whose dark twig repeats every 1.5 m.",
+    "tile_m": [
+      1.8,
+      1.8
+    ],
+    "dimensions_mm": [
+      1800,
+      1800
+    ],
+    "maps": {
+      "ao": "textures/ph/dense_sand/dense_sand_ao_1k.jpg",
+      "diff": "textures/ph/dense_sand/dense_sand_diff_2k.jpg",
+      "nor_gl": "textures/ph/dense_sand/dense_sand_nor_gl_1k.jpg",
+      "rough": "textures/ph/dense_sand/dense_sand_rough_1k.jpg"
+    },
+    "bytes": 4912352
+  },
+  {
+    "slot": "ground_dirt",
+    "id": "mud_cracked_dry_riverbed_002",
+    "name": "Mud Cracked Dry Riverbed 002",
+    "type": "texture",
+    "authors": [
+      "Dario Barresi (Processing)",
+      "Dimitrios Savva (Photography)"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/mud_cracked_dry_riverbed_002",
+    "files": [
+      "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_ao_1k.jpg",
+      "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_diff_2k.jpg",
+      "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_nor_gl_1k.jpg",
+      "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_rough_1k.jpg"
+    ],
+    "notes": "Sun-baked cracked alluvial mud, muted tan-brown (143,119,97). Polygonal plates ~10-25 cm across with shallow cracks; matte (~0.78). One tile = 2.0 m x 2.0 m. For road shoulders, paths, courtyards and dry canal banks; blend with ground_sand via a mask or vertex colour. Diffuse 2k; normal/rough/AO 1k (all-2k = 13.6 MB).",
+    "tile_m": [
+      2,
+      2
+    ],
+    "dimensions_mm": [
+      2000,
+      2000
+    ],
+    "maps": {
+      "ao": "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_ao_1k.jpg",
+      "diff": "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_diff_2k.jpg",
+      "nor_gl": "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_nor_gl_1k.jpg",
+      "rough": "textures/ph/mud_cracked_dry_riverbed_002/mud_cracked_dry_riverbed_002_rough_1k.jpg"
+    },
+    "bytes": 5893431
+  },
+  {
+    "slot": "plaster",
+    "id": "clay_block_wall",
+    "name": "Clay Block Wall",
+    "type": "texture",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/clay_block_wall",
+    "files": [
+      "textures/ph/clay_block_wall/clay_block_wall_ao_1k.jpg",
+      "textures/ph/clay_block_wall/clay_block_wall_diff_2k.jpg",
+      "textures/ph/clay_block_wall/clay_block_wall_nor_gl_1k.jpg",
+      "textures/ph/clay_block_wall/clay_block_wall_rough_1k.jpg"
+    ],
+    "notes": "Hand-applied mud/clay render on a wall, ochre-brown (131,102,71). Shrinkage cracks follow ~20-25 cm courses, so it reads as mud-plastered mudbrick; bumpy relief with a few pale pebble inclusions; matte (~0.94). One tile = 2.0 m x 2.0 m (~8-9 courses): repeat = (wallWidth/2, wallHeight/2). For sun-bleached walls, lighten/warm via material.color (e.g. #ffe6c4 x ~1.2). Diffuse 2k; normal/rough/AO 1k (all-2k = 11.5 MB).",
+    "tile_m": [
+      2,
+      2
+    ],
+    "dimensions_mm": [
+      2000,
+      2000
+    ],
+    "maps": {
+      "ao": "textures/ph/clay_block_wall/clay_block_wall_ao_1k.jpg",
+      "diff": "textures/ph/clay_block_wall/clay_block_wall_diff_2k.jpg",
+      "nor_gl": "textures/ph/clay_block_wall/clay_block_wall_nor_gl_1k.jpg",
+      "rough": "textures/ph/clay_block_wall/clay_block_wall_rough_1k.jpg"
+    },
+    "bytes": 5493334
+  },
+  {
+    "slot": "wood",
+    "id": "wood_planks",
+    "name": "Wood Planks",
+    "type": "texture",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/wood_planks",
+    "files": [
+      "textures/ph/wood_planks/wood_planks_ao_1k.jpg",
+      "textures/ph/wood_planks/wood_planks_diff_2k.jpg",
+      "textures/ph/wood_planks/wood_planks_nor_gl_2k.jpg",
+      "textures/ph/wood_planks/wood_planks_rough_1k.jpg"
+    ],
+    "notes": "Weathered sawn planks, warm mid-brown (121,88,57). ~9 boards per tile (~17 cm wide) with visible grain, thin dark gaps and small peg/nail holes; matte (~0.86). Boards run horizontally: for vertical door planks set texture.center=(0.5,0.5) and rotation=Math.PI/2. One tile = 1.5 m x 1.5 m. Cedar gate doors: repeat ~ doorWidth/1.5 across the boards; roof beams: stretch along the beam axis. Diffuse + normal 2k; rough/AO 1k.",
+    "tile_m": [
+      1.5,
+      1.5
+    ],
+    "dimensions_mm": [
+      1500,
+      1500
+    ],
+    "maps": {
+      "ao": "textures/ph/wood_planks/wood_planks_ao_1k.jpg",
+      "diff": "textures/ph/wood_planks/wood_planks_diff_2k.jpg",
+      "nor_gl": "textures/ph/wood_planks/wood_planks_nor_gl_2k.jpg",
+      "rough": "textures/ph/wood_planks/wood_planks_rough_1k.jpg"
+    },
+    "bytes": 5945303
+  },
+  {
+    "slot": "fabric",
+    "id": "hessian_380",
+    "name": "Hessian 380",
+    "type": "texture",
+    "authors": [
+      "colormass (Photography)",
+      "Rico Cilliers (Processing)"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/hessian_380",
+    "files": [
+      "textures/ph/hessian_380/hessian_380_ao_1k.jpg",
+      "textures/ph/hessian_380/hessian_380_diff_1k.jpg",
+      "textures/ph/hessian_380/hessian_380_nor_gl_1k.jpg",
+      "textures/ph/hessian_380/hessian_380_rough_1k.jpg"
+    ],
+    "notes": "Tight plain-weave jute/hessian, warm tan (176,144,106), very uniform. Reads as rough linen/canvas at awning distance; roughness ~0.59 with slight fibre sheen. One tile = 0.274 m: repeat ~3.65 per metre (a 4 m awning -> ~14.6). Multiply material.color to dye cloth (it tints the tan base). Whole set at 1k (still ~3.7 texels/mm); 2k would be 12.7 MB with no visible gain.",
+    "tile_m": [
+      0.274,
+      0.274
+    ],
+    "dimensions_mm": [
+      274,
+      274
+    ],
+    "maps": {
+      "ao": "textures/ph/hessian_380/hessian_380_ao_1k.jpg",
+      "diff": "textures/ph/hessian_380/hessian_380_diff_1k.jpg",
+      "nor_gl": "textures/ph/hessian_380/hessian_380_nor_gl_1k.jpg",
+      "rough": "textures/ph/hessian_380/hessian_380_rough_1k.jpg"
+    },
+    "bytes": 3515306
+  },
+  {
+    "slot": "stone",
+    "id": "rough_concrete",
+    "name": "Rough Concrete",
+    "type": "texture",
+    "authors": [
+      "Dimitrios Savva"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/rough_concrete",
+    "files": [
+      "textures/ph/rough_concrete/rough_concrete_ao_1k.jpg",
+      "textures/ph/rough_concrete/rough_concrete_diff_1k.jpg",
+      "textures/ph/rough_concrete/rough_concrete_nor_gl_1k.jpg",
+      "textures/ph/rough_concrete/rough_concrete_rough_1k.jpg"
+    ],
+    "notes": "Despite the name, it reads as pale cleft limestone/sandstone: whitish cream-grey (184,181,156), fine granular pits, no aggregate, no formwork lines, no lichen; matte (~0.84). One tile = 1.23 m x 1.23 m. Use as micro-detail on the large Processional Way paving slabs (~1 tile per 1.05 m slab; randomise offset/rotation per slab). Slightly cool in crevices, so multiply by a warm tint (e.g. #f7e8cf). Whole set at 1k (~830 px/m because the tile is small). Replaced worn_rock_natural_01, rejected after viewing its 2k diffuse: ~10 bright yellow-green lichen patches repeating every 2 m.",
+    "tile_m": [
+      1.23,
+      1.23
+    ],
+    "dimensions_mm": [
+      1230,
+      1230
+    ],
+    "maps": {
+      "ao": "textures/ph/rough_concrete/rough_concrete_ao_1k.jpg",
+      "diff": "textures/ph/rough_concrete/rough_concrete_diff_1k.jpg",
+      "nor_gl": "textures/ph/rough_concrete/rough_concrete_nor_gl_1k.jpg",
+      "rough": "textures/ph/rough_concrete/rough_concrete_rough_1k.jpg"
+    },
+    "bytes": 3982016
+  },
+  {
+    "slot": "brick_buff",
+    "id": "white_sandstone_bricks_03",
+    "name": "White Sandstone Bricks 03",
+    "type": "texture",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/white_sandstone_bricks_03",
+    "files": [
+      "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_ao_1k.jpg",
+      "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_diff_2k.jpg",
+      "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_nor_gl_2k.jpg",
+      "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_rough_1k.jpg"
+    ],
+    "notes": "Old buff/cream bricks (177,159,132) with a few ochre and one greyish unit, rounded worn arrises and recessed lime-mortar joints. ~13 courses per tile (~15 cm per course), units 25-55 cm long. Roughness ~0.53 is a little sheeny: set material.roughness ~1.4 (it multiplies the map; the shader clamps at 1) for dry fired brick. One tile = 2.0 m x 2.0 m; to match Babylonian baked brick (~33 x 8.5 cm, ~10 cm courses), scale to ~1.35 m per tile (repeat = size / 1.35). For unglazed walls and cores, not the blue glazed facade. Diffuse + normal 2k; rough/AO 1k.",
+    "tile_m": [
+      2,
+      2
+    ],
+    "dimensions_mm": [
+      2000,
+      2000
+    ],
+    "maps": {
+      "ao": "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_ao_1k.jpg",
+      "diff": "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_diff_2k.jpg",
+      "nor_gl": "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_nor_gl_2k.jpg",
+      "rough": "textures/ph/white_sandstone_bricks_03/white_sandstone_bricks_03_rough_1k.jpg"
+    },
+    "bytes": 5434285
+  },
+  {
+    "slot": "bark",
+    "id": "palm_tree_bark",
+    "name": "Palm Tree Bark",
+    "type": "texture",
+    "authors": [
+      "Dimitrios Savva (Photography)",
+      "Rico Cilliers (Processing)"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/palm_tree_bark",
+    "files": [
+      "textures/ph/palm_tree_bark/palm_tree_bark_ao_1k.jpg",
+      "textures/ph/palm_tree_bark/palm_tree_bark_diff_1k.jpg",
+      "textures/ph/palm_tree_bark/palm_tree_bark_nor_gl_1k.jpg",
+      "textures/ph/palm_tree_bark/palm_tree_bark_rough_1k.jpg"
+    ],
+    "notes": "Sun-bleached grey-beige palm trunk (156,144,129) with horizontal leaf-scar rings ~13 cm apart, white flecks, one dark diagonal scuff streak (upper left) and two tiny rust-coloured specks; roughness ~0.70. The image is 1:2 (1024x2048). Poly Haven lists 1300x1300 mm, which matches the long (vertical) axis, so one tile ~0.65 m around x 1.3 m tall. Map U around the trunk with an INTEGER repeat (e.g. 2 on a ~35 cm diameter date palm) to avoid a seam; V = trunkHeight / 1.3; randomise U offset per tree. A brown multiply (e.g. #c9a27a) moves it toward date-palm bark. Whole set at 1k (an all-2k set = 23.7 MB).",
+    "tile_m": [
+      0.65,
+      1.3
+    ],
+    "dimensions_mm": [
+      1300,
+      1300
+    ],
+    "maps": {
+      "ao": "textures/ph/palm_tree_bark/palm_tree_bark_ao_1k.jpg",
+      "diff": "textures/ph/palm_tree_bark/palm_tree_bark_diff_1k.jpg",
+      "nor_gl": "textures/ph/palm_tree_bark/palm_tree_bark_nor_gl_1k.jpg",
+      "rough": "textures/ph/palm_tree_bark/palm_tree_bark_rough_1k.jpg"
+    },
+    "bytes": 6048299
+  },
+  {
+    "slot": "model_pot",
+    "id": "planter_pot_clay",
+    "name": "Planter Pot Clay",
+    "type": "model",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/planter_pot_clay",
+    "files": [
+      "models/ph/planter_pot_clay/planter_pot_clay.bin",
+      "models/ph/planter_pot_clay/planter_pot_clay_1k.gltf",
+      "models/ph/planter_pot_clay/textures/planter_pot_clay_arm_1k.jpg",
+      "models/ph/planter_pot_clay/textures/planter_pot_clay_diff_1k.jpg",
+      "models/ph/planter_pot_clay/textures/planter_pot_clay_nor_gl_1k.jpg"
+    ],
+    "notes": "Unglazed, weathered red terracotta pot, conical with a rolled rim and flaking whitish wash; plausible as simple Neo-Babylonian earthenware. Real size ~0.27 m diameter x 0.22 m tall; 1 mesh, ~3.1k tris; no metal. A thin green moss/soil line on the INSIDE wall is visible only from above. Scale 1.5-3x for storage jars, or tint toward buff (#e3c7a0) to match typical calcareous Babylonian ware. Textures 1k: diff, nor_gl, arm (glTF ORM).",
+    "entry": "models/ph/planter_pot_clay/planter_pot_clay_1k.gltf",
+    "dimensions_mm": [
+      266,
+      263,
+      222
+    ],
+    "bytes": 1797158
+  },
+  {
+    "slot": "model_basket",
+    "id": "wicker_basket_02",
+    "name": "Wicker Basket 02",
+    "type": "model",
+    "authors": [
+      "Kuutti Siitonen"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/wicker_basket_02",
+    "files": [
+      "models/ph/wicker_basket_02/textures/wicker_basket_02_arm_1k.jpg",
+      "models/ph/wicker_basket_02/textures/wicker_basket_02_diff_1k.jpg",
+      "models/ph/wicker_basket_02/textures/wicker_basket_02_nor_gl_1k.jpg",
+      "models/ph/wicker_basket_02/wicker_basket_02.bin",
+      "models/ph/wicker_basket_02/wicker_basket_02_1k.gltf"
+    ],
+    "notes": "Hand-woven natural-tan rattan basket with twine-bound rim, short wooden legs and a separate lid. Nodes: wicker_basket_02_base (~0.21 x 0.20 x 0.22 m) and wicker_basket_02_lid (placed beside the base in the file; move it on top or omit). No metal. Reed/palm-leaf baskets were everyday Mesopotamian items; this footed style is a generic stand-in for market stalls. ~17.9k tris total. Textures 1k.",
+    "entry": "models/ph/wicker_basket_02/wicker_basket_02_1k.gltf",
+    "dimensions_mm": [
+      375,
+      271,
+      218
+    ],
+    "bytes": 3064509
+  },
+  {
+    "slot": "model_bowl",
+    "id": "wooden_bowl_01",
+    "name": "Wooden Bowl 01",
+    "type": "model",
+    "authors": [
+      "Oliver Harries"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/wooden_bowl_01",
+    "files": [
+      "models/ph/wooden_bowl_01/textures/wooden_bowl_01_arm_1k.jpg",
+      "models/ph/wooden_bowl_01/textures/wooden_bowl_01_diff_1k.jpg",
+      "models/ph/wooden_bowl_01/textures/wooden_bowl_01_nor_gl_1k.jpg",
+      "models/ph/wooden_bowl_01/wooden_bowl_01.bin",
+      "models/ph/wooden_bowl_01/wooden_bowl_01_1k.gltf"
+    ],
+    "notes": "Rough hand-carved wooden bowl with irregular rim and aged reddish-brown patina; ~0.31 m diameter x 0.09 m tall. ~14.1k tris: fine as a hero/market prop, heavy for mass instancing. Textures 1k.",
+    "entry": "models/ph/wooden_bowl_01/wooden_bowl_01_1k.gltf",
+    "dimensions_mm": [
+      313,
+      309,
+      94
+    ],
+    "bytes": 1823237
+  },
+  {
+    "slot": "model_shrub",
+    "id": "wild_rooibos_bush",
+    "name": "Wild Rooibos Bush",
+    "type": "model",
+    "authors": [
+      "James Ray Cock (modeling)",
+      "Jenelle van Heerden (photography)"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/wild_rooibos_bush",
+    "files": [
+      "models/ph/wild_rooibos_bush/textures/wild_rooibos_bush_arm_1k.jpg",
+      "models/ph/wild_rooibos_bush/textures/wild_rooibos_bush_diff_1k.png",
+      "models/ph/wild_rooibos_bush/textures/wild_rooibos_bush_nor_gl_1k.jpg",
+      "models/ph/wild_rooibos_bush/wild_rooibos_bush.bin",
+      "models/ph/wild_rooibos_bush/wild_rooibos_bush_1k.gltf"
+    ],
+    "notes": "Low, dry, multi-stemmed desert shrub (Karoo species) with dark olive needle leaves; a believable stand-in for Mesopotamian steppe scrub along roadsides, wasteland and outskirts. 5 variants (nodes wild_rooibos_bush_a..e: 0.28-0.70 m wide, 0.31-0.54 m tall, 1.2k-13.2k tris). PATCHED: the Poly Haven glTF fed a JPG (no alpha) to alpha-card leaves, so they rendered as opaque quads. baseColor now points to the official RGBA PNG; leaves/twigs alphaMode BLEND -> MASK (alphaCutoff 0.5); unused JPG diffuse removed. Khronos glTF validator: 0 errors.",
+    "entry": "models/ph/wild_rooibos_bush/wild_rooibos_bush_1k.gltf",
+    "dimensions_mm": [
+      2285,
+      854,
+      544
+    ],
+    "bytes": 4765758
+  },
+  {
+    "slot": "model_grass",
+    "id": "grass_bermuda_01",
+    "name": "Grass Bermuda 01",
+    "type": "model",
+    "authors": [
+      "Rico Cilliers"
+    ],
+    "license": "CC0 1.0",
+    "url": "https://polyhaven.com/a/grass_bermuda_01",
+    "files": [
+      "models/ph/grass_bermuda_01/grass_bermuda_01.bin",
+      "models/ph/grass_bermuda_01/grass_bermuda_01_1k.gltf",
+      "models/ph/grass_bermuda_01/textures/grass_bermuda_01_arm_1k.jpg",
+      "models/ph/grass_bermuda_01/textures/grass_bermuda_01_diff_1k.png",
+      "models/ph/grass_bermuda_01/textures/grass_bermuda_01_nor_gl_1k.jpg"
+    ],
+    "notes": "Bermuda grass (Cynodon dactylon, native to the region) as 21 small alpha-card tuft variants (dead_a/b, flattened_a, medium_a-f, seedling_a-d, single_a/b, small_a-f; 2-15 cm tall, 8-268 tris), laid out along X for InstancedMesh scattering. The Poly Haven thumbnail shows a Blender scatter, not one mesh. Mostly GREEN: use sparingly near the moat, canals and gardens. For dry ground prefer the *_dead_* tufts or multiply material.color by straw (#d8c18a). PATCHED like the shrub: baseColor -> RGBA PNG, alphaMode OPAQUE -> MASK (cutoff 0.5). Validator: 0 errors.",
+    "entry": "models/ph/grass_bermuda_01/grass_bermuda_01_1k.gltf",
+    "dimensions_mm": [
+      3136,
+      1073,
+      1060
+    ],
+    "bytes": 1922341
+  }
+]

@@ -1,0 +1,68 @@
+{
+ "clips": {
+  "walk": {
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.659756819481519,
+   "duration": 1.0166666666666666
+  },
+  "walk_slow": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0835804818149306,
+   "duration": 1.3083333333333333
+  },
+  "walk_staff": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0835804818149306,
+   "duration": 1.3083333333333333
+  },
+  "march": {
+   "frames": 41,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.9230842623067441,
+   "duration": 1.3416666666666666
+  },
+  "idle": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "idle_staff": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "talk": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "wave": {
+   "frames": 65,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 2.1666666666666665
+  }
+ },
+ "lods": {
+  "elder": [
+   26392,
+   8797,
+   2639,
+   967
+  ]
+ }
+}

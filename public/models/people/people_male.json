@@ -1,0 +1,161 @@
+{
+ "clips": {
+  "walk": {
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.6803268422184767,
+   "duration": 1.0166666666666666
+  },
+  "walk_carry": {
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.6803268422184767,
+   "duration": 1.0166666666666666
+  },
+  "walk_slow": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "walk_standard": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "walk_drum": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "walk_lyre": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "walk_censer": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "walk_bearer": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "walk_staff": {
+   "frames": 40,
+   "fps": 30,
+   "loop": true,
+   "speed": 1.0970097233078016,
+   "duration": 1.3083333333333333
+  },
+  "march": {
+   "frames": 41,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.9345244106711948,
+   "duration": 1.3416666666666666
+  },
+  "march_spear": {
+   "frames": 41,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.9345244106711948,
+   "duration": 1.3416666666666666
+  },
+  "idle": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "idle_spear": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "idle_carry": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "idle_staff": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "talk": {
+   "frames": 300,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 10.0
+  },
+  "wave": {
+   "frames": 65,
+   "fps": 30,
+   "loop": true,
+   "speed": 0.0,
+   "duration": 2.1666666666666665
+  }
+ },
+ "lods": {
+  "man": [
+   23528,
+   7843,
+   2351,
+   861
+  ],
+  "robed": [
+   27251,
+   9084,
+   2725,
+   999
+  ],
+  "noble": [
+   26511,
+   8837,
+   2651,
+   971
+  ],
+  "guard": [
+   19801,
+   6599,
+   1979,
+   725
+  ],
+  "worker": [
+   19342,
+   6446,
+   1934,
+   709
+  ],
+  "priest": [
+   17756,
+   5917,
+   1775,
+   650
+  ]
+ }
+}
