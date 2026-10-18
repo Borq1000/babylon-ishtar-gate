@@ -297,6 +297,7 @@ src/
   dev/           relief tracing page: /dev/relief.html?a=lion&mode=trace
 public/          CC0 textures and models, the people (models/people)
 tools/people/    Blender scripts that build the people (not part of the web build)
+tools/video/     scripts that rendered the presentation film from the live scene
 reference/       museum photographs used for tracing (not part of the web build)
 docs/            screenshots and the video poster
 ```
