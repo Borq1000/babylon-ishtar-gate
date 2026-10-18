@@ -14,6 +14,8 @@ npm run dev        # → http://localhost:5173
 
 Нужны Node.js 18+ (проверено на 22) и браузер с WebGL 2 (Chrome или Edge — лучше всего).
 
+**Видеопрезентация:** тизер на 40 секунд — в [английском README](README.md#presentation-video). Полный фильм (2:46, 1080p, со звуком сцены) можно [скачать здесь](https://github.com/Borq1000/babylon-ishtar-gate/releases/download/v1.0.0/babylon-presentation-1080p.mp4).
+
 Продакшн-сборка: `npm run build`, затем `npm run preview`.
 
 ## Управление

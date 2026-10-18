@@ -56,12 +56,17 @@ reconstructed and what is interpretation.
 
 ## Presentation video
 
-A 2½-minute flyover rendered from the real-time scene (1920×1080, 30 fps, with the scene's own sound):
+A 40-second teaser (720p, with sound) — press play:
 
-[![Presentation video — click to watch](docs/video-poster.jpg)](https://github.com/Borq1000/babylon-ishtar-gate/releases/latest)
+https://github.com/user-attachments/assets/68b5285d-363f-4e11-9f49-d81d0e1f560b
 
-**Download / watch:** see the latest [release](https://github.com/Borq1000/babylon-ishtar-gate/releases/latest)
-(file `babylon-presentation-1080p.mp4`).
+**The full film** (2 min 46 s, 1920×1080, 30 fps, 158 MB) is rendered frame by frame from the real-time scene.
+It carries the scene's own procedural sound and has no music:
+
+[![Full presentation film — click to download](docs/video-poster.jpg)](https://github.com/Borq1000/babylon-ishtar-gate/releases/download/v1.0.0/babylon-presentation-1080p.mp4)
+
+⬇ [Download `babylon-presentation-1080p.mp4`](https://github.com/Borq1000/babylon-ishtar-gate/releases/download/v1.0.0/babylon-presentation-1080p.mp4) ·
+[release page](https://github.com/Borq1000/babylon-ishtar-gate/releases/tag/v1.0.0)
 
 ## Quick start
 
