@@ -58,7 +58,7 @@ reconstructed and what is interpretation.
 
 A 40-second teaser (720p, with sound) — press play:
 
-https://github.com/user-attachments/assets/68b5285d-363f-4e11-9f49-d81d0e1f560b
+https://github.com/user-attachments/assets/a655f13e-3828-4ae1-8d3b-85d871749077
 
 **The full film** (2 min 46 s, 1920×1080, 30 fps, 158 MB) is rendered frame by frame from the real-time scene.
 It carries the scene's own procedural sound and has no music:
